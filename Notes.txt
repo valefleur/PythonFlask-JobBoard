@@ -5,3 +5,12 @@ Test project with:
 Preview project by:
     flask run
     visit http://localhost:5000
+
+url_for() takes one or more arguements: a function to route to, and a list of key=value pairs.
+    The first is the name of a specific function.
+    The remaining parameters are keyword arguments that correspond to variable parts of the URL being built.
+    Example: url_for('static', filename='css/app.css') builds the url/path to a static resource (a built-in, already known location) and adds the path to a specific filename.
+https://flask/palletsprojects.com/en/1.1.x/quickstart/#url-building
+
+Extend a Template into an HTML file with Jinja2 by adding this at the top:
+    {% extents "baseTemplate.html" $}
