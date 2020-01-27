@@ -1,0 +1,7 @@
+Enter environment with:
+    source venv/bin/activate
+Test project with:
+    pytest
+Preview project by:
+    flask run
+    visit http://localhost:5000
