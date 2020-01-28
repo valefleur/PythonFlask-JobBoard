@@ -14,3 +14,10 @@ https://flask/palletsprojects.com/en/1.1.x/quickstart/#url-building
 
 Extend a Template into an HTML file with Jinja2 by adding this at the top:
     {% extents "baseTemplate.html" $}
+
+In Jinja2, single curly braces indicate that the code should be resolved, double means "make a call".  There's gotta be a better way to express this idea...
+    {% for j in jobs %}
+      <div class="iamaclass">
+        {{ show_job(j) }}
+      </div>
+    {% endfor %}
