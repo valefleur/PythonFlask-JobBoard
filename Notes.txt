@@ -23,3 +23,5 @@ In Jinja2, single curly braces indicate that the code should be resolved, double
     {% endfor %}
 
 Always a good reminder: don't assume the system works just because the tests pass--use it!  Automated tests are great, but are not a full replacement for manual and/or experimental testing.  :)
+
+While I get that coming up with short but descriptive variable names is a cognative and creative drain, using the exact same variable name everywhere to represent similar but *not exactly the same* thing is confusing for learners.  I should create my own system for determining if the variable is from this or that (i.e., from the DB, or Py/JS code, etc.)
