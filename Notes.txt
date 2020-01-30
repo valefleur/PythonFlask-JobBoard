@@ -21,3 +21,5 @@ In Jinja2, single curly braces indicate that the code should be resolved, double
         {{ show_job(j) }}
       </div>
     {% endfor %}
+
+Always a good reminder: don't assume the system works just because the tests pass--use it!  Automated tests are great, but are not a full replacement for manual and/or experimental testing.  :)
